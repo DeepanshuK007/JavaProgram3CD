@@ -1,12 +1,11 @@
-class Animal{  
-void eat(){System.out.println("eating...");}  
-}  
-class Dog extends Animal{  
-void bark(){System.out.println("barking...");}  
-}  
-class TestInheritance{  
-public static void main(String args[]){  
-Dog d=new Dog();  
-d.bark();  
-d.eat();  
-}}  
+// This is a simple Java program.
+// FileName : "HelloWorld.java".
+
+class HelloWorld {
+    // Your program begins with a call to main().
+    // Prints "Hello, World" to the terminal window.
+    public static void main(String args[])
+    {
+        System.out.println("Hello, World, Hello AI");
+    }
+}
